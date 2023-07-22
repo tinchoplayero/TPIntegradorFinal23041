@@ -1,0 +1,135 @@
+.imgFondo{
+    background-image: url(../assets/img/hawaii.jpg);
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    margin-top: 5em;
+    background-color: rgb(50,50,50);
+    background-blend-mode: soft-light;
+}
+.textoDerecha{
+    text-align: right;
+    margin-right: 3vmin;
+}
+.divisor{
+    margin-top: 2vmin;
+}
+.btn-javascript {
+    --bs-btn-color: #000;
+    --bs-btn-bg: #ffc107;
+    --bs-btn-border-color: #ffc107;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #ffca2c;
+    --bs-btn-hover-border-color: #ffc720;
+    --bs-btn-padding-x: 0.2rem;
+    --bs-btn-padding-y: 0.2rem;
+    --bs-btn-font-size: 0.6rem;
+    --bs-btn-font-weight: 700;
+    --bs-btn-line-height: 1.2;
+    
+  }
+
+  .btn-react {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #06ada8;
+    --bs-btn-border-color: #06ada8;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #06ada8;
+    --bs-btn-hover-border-color: #06ada8;
+    --bs-btn-padding-x: 0.2rem;
+    --bs-btn-padding-y: 0.2rem;
+    --bs-btn-font-size: 0.6rem;
+    --bs-btn-font-weight: 700;
+    --bs-btn-line-height: 1.2;
+    
+  }
+
+  .btn-negocios {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #444;
+    --bs-btn-border-color: #444;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #444;
+    --bs-btn-hover-border-color: #444;
+    --bs-btn-padding-x: 0.2rem;
+    --bs-btn-padding-y: 0.2rem;
+    --bs-btn-font-size: 0.6rem;
+    --bs-btn-font-weight: 700;
+    --bs-btn-line-height: 1.2;
+    
+  }
+
+  .btn-startups {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: red;
+    --bs-btn-border-color: red;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: red;
+    --bs-btn-hover-border-color: red;
+    --bs-btn-padding-x: 0.2rem;
+    --bs-btn-padding-y: 0.2rem;
+    --bs-btn-font-size: 0.6rem;
+    --bs-btn-font-weight: 700;
+    --bs-btn-line-height: 1.2;
+    
+  }
+
+  .fullPantalla{
+    
+    padding-left: 0;
+    padding-right: 0;
+      }
+
+  .btn-enviar{
+    --bs-btn-color: #fff;
+  --bs-btn-bg: #96c93c;
+  --bs-btn-border-color: #96c93c;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #96c93c;
+  --bs-btn-hover-border-color: #96c93c;
+  --bs-btn-focus-shadow-rgb: 60, 153, 110;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #96c93c;
+  --bs-btn-active-border-color: #96c93c;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #96c93c;
+  --bs-btn-disabled-border-color: #96c93c;
+  }
+
+  .estilo-footer{
+    background-color: #1e4459;
+    position: fixed;
+	  bottom: 0;
+	  left: 0;
+	  width: 100%;
+    font-size: small;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .img-fluid-lugar {
+    /*max-width: 100%;
+    min-height: 500px;*/
+    width:fit-content;
+    height:fit-content;
+    max-width: 100%;
+    min-width: 600px;
+  }
+
+  
+  .descuentos {
+    --bs-card-spacer-y: 2rem;
+    --bs-card-spacer-x: 1rem;
+    --bs-card-title-spacer-y: 1rem;
+    line-height: 3rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    border: solid;
+    /*border-color: blue;*/
+    border-width: 2px;
+    
+  }

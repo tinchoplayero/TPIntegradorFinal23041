@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/miestilo.css">
+    <title>Oradores</title>
+</head>
+<body>
+    <header>
+		<nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/img/codoacodo.png" alt="Logo" width="100"  class="d-inline-block align-text-center">
+          Conf en Bs As</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+          <div class="textoDerecha">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link" href="index.html">La Conferencia</a>
+                <a class="nav-link" href="index.html#oradores">Los Oradores</a>
+                <a class="nav-link" href="index.html#lugar">El Lugar y La Fecha</a>
+                <a class="nav-link" href="index.html#conv-orador">Conviertete en Orador</a>
+                <a class="nav-link" href="#">Oradores</a>
+                <a class="nav-link text-success" href="tickets.html">Comprar Tickets</a>
+              </div>
+            </div>
+          </div>
+      </div>
+    </nav>
+		
+    </header>
+    <main style="padding-top: 100px;">
+        
+        <DIV class="container" style="text-align: center">
+           
+            <H1>ORADORES</H1>
+        </DIV>
+        <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Horario</th>
+                <th>Tema</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- <%              
+                Incluir el archivo JSP que obtiene los datos de la base de datos y los muestra en la tabla
+                request.getRequestDispatcher("oradores.jsp").include(request, response);
+            %> -->
+            
+            
+        </tbody>
+    </table>
+        
+
+    </main>
+    <footer class="mt-3 estilo-footer" >
+        <div class="container text-center ">
+            <div class="row align-items-center">
+                <div class="col">
+                  Preguntas Frecuentes
+                </div>
+                <div class="col">
+                  Contáctanos
+                </div>
+                <div class="col">
+                  Prensa
+                </div>
+                <div class="col">
+                  Conferencias
+                </div>
+                <div class="col">
+                  Terminos y condiciones
+                </div>
+                <div class="col">
+                  Privacidad
+                </div>
+                <div class="col">
+                  Estudiantes
+                </div>
+            </div>
+          </div>
+        </footer>
+    <script src="./js/bootstrap.bundle.js"></script>
+    
+    
+    
+
+    
+</body>
+</html>
